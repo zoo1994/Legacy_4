@@ -1,4 +1,4 @@
-package com.sj.s;
+package com.sj.s1;
 
 import static org.junit.Assert.*;
 import org.junit.Test;
