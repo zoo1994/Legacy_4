@@ -4,7 +4,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.sj</groupId>
-	<artifactId>s</artifactId>
+	<artifactId>s1</artifactId>
 	<name>Legacy_4</name>
 	<packaging>war</packaging>
 	<version>1.0.0-BUILD-SNAPSHOT</version>
