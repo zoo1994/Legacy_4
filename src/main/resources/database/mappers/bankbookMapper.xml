@@ -5,11 +5,11 @@
     "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
     
     <mapper namespace="com.sj.s1.bankbook.BankbookDAO">
-    	<select id="list" resultType="com.sj.s1.bankbook.BankbookDTO">
+    	<select id="list" resultType="BankbookDTO">
     		select * from bankbook
     	</select>
     		
-    	<select id="detail" parameterType="java.lang.Long"  resultType="com.sj.s1.bankbook.BankbookDTO">
+    	<select id="detail" parameterType="Long"  resultType="com.sj.s1.bankbook.BankbookDTO">
     	select * from bankbook where booknumber=#{num}
     	</select>
     	
